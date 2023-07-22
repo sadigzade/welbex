@@ -1,34 +1,39 @@
 .header {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 52px;
-  padding: 57px 0 0 0;
+  display: block;
+  padding: 20px 16px;
+  background-color: var(--black);
 }
 
-.header__nav {
-  flex: 1;
+.header__logo {
+  display: none;
 }
 
 .nav__list {
   display: flex;
-  gap: 30px;
+  justify-content: space-between;
+  gap: 16px;
 }
 
 .nav__list-item a {
+  font-size: 0.75rem;
+  text-transform: uppercase;
   font-weight: 500;
   transition: color 300ms ease-in-out;
 }
 .nav__list-item a:hover {
   color: var(--dark-gray);
 }
-
-.header__contacts {
-  display: flex;
-  align-items: center;
-  gap: 47px;
+.nav__list-item:last-child {
+  display: none;
 }
 
+.header__contacts {
+  display: none;
+}
+
+.contacts__phone {
+  display: none;
+}
 .contacts__phone a {
   transition: color 300ms ease-in-out;
 }
@@ -37,13 +42,73 @@
 }
 
 .contacts__socials {
-  display: flex;
-  align-items: center;
-  gap: 30px;
+  display: none;
 }
 .contacts__socials a svg path {
   transition: fill 300ms ease-in-out;
 }
 .contacts__socials a svg:hover path {
   fill: var(--dark-gray);
+}
+
+@media all and (min-width: 576px) {
+  .nav__list-item:last-child {
+    display: list-item;
+  }
+}
+
+@media all and (min-width: 768px) {
+  .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 52px;
+    padding: 30px 0 0 0;
+    background-color: transparent;
+  }
+
+  .header__logo {
+    display: block;
+  }
+
+  .nav__list {
+    gap: 24px;
+  }
+
+  .nav__list-item a {
+    font-size: 1rem;
+  }
+}
+
+@media all and (min-width: 992px) {
+  .header {
+    padding: 57px 0 0 0;
+  }
+
+  .header__nav {
+    flex: 1;
+  }
+
+  .header__contacts {
+    display: flex;
+    align-items: center;
+    gap: 47px;
+  }
+
+  .nav__list {
+    gap: 30px;
+    justify-content: flex-start;
+  }
+
+  .contacts__socials {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+  }
+}
+
+@media all and (min-width: 1155px) {
+  .contacts__phone {
+    display: inline;
+  }
 }
