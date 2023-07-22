@@ -1,0 +1,96 @@
+.app {
+  position: relative;
+  height: 100vh;
+}
+
+.app::after {
+  content: "";
+  position: absolute;
+  width: 311px;
+  height: 311px;
+  border-radius: 311px;
+  opacity: 0.5;
+  background: #961a1a;
+  -webkit-filter: blur(196px);
+  filter: blur(196px);
+  top: 25.6122vh;
+  left: -102px;
+  z-index: -1;
+}
+
+.app::before {
+  content: "";
+  position: absolute;
+  width: 259px;
+  height: 259px;
+  border-radius: 259px;
+  opacity: 0.5;
+  background: #833ab4;
+  -webkit-filter: blur(196px);
+  filter: blur(196px);
+  top: -154px;
+  left: 41.80555vw;
+  z-index: -1;
+}
+
+.app__wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  max-width: 1172px;
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+
+.app__balls {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+.app__balls-purple {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  top: -2px;
+  left: 60.2778vw;
+}
+.app__balls-purple img {
+  width: 100%;
+  height: 100%;
+  filter: drop-shadow(3px 6px 27px rgba(177, 118, 217, 0.25)) blur(5px);
+  backdrop-filter: blur(2px);
+}
+
+.app__balls-red--big {
+  position: absolute;
+  width: 83px;
+  height: 83px;
+  top: 8.4694vh;
+  left: 36.0417vw;
+}
+.app__balls-red--big img {
+  width: 100%;
+  height: 100%;
+  filter: drop-shadow(3px 6px 27px rgba(223, 125, 125, 0.25));
+  backdrop-filter: blur(2px);
+}
+
+.app__balls-red--small {
+  position: absolute;
+  width: 28px;
+  height: 28px;
+  top: 55.8163vh;
+  left: 59.0972vw;
+}
+.app__balls-red--small img {
+  width: 100%;
+  height: 100%;
+  filter: drop-shadow(3px 6px 27px rgba(223, 125, 125, 0.25)) blur(2.5px);
+  backdrop-filter: blur(2px);
+}
