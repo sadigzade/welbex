@@ -7,13 +7,16 @@ import purpleBallSvg from "../../assets/images/purple-ball.svg";
 import redBallSvg from "../../assets/images/red-ball.svg";
 
 import styles from "./App.module.css";
+import Main from "../Main/Main";
 
 const App = () => {
   return (
     <div className={styles.app}>
       <div className={styles.app__wrapper}>
         <Header />
-        <main className={styles.app__main}></main>
+        <main className={styles.app__main}>
+          <Main />
+        </main>
         <Footer />
       </div>
       <div className={styles.app__balls}>
