@@ -11,6 +11,7 @@ const Header = () => {
         <a href="/">
           <img src={logoSvg} alt="Welbex Logo" />
         </a>
+        <p>крупный интегратор CRM в Росcии и ещё 8 странах</p>
       </div>
       <nav className={styles.header__nav}>
         <ul className={styles.nav__list}>
