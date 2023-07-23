@@ -16,19 +16,19 @@ const Header = () => {
       <nav className={styles.header__nav}>
         <ul className={styles.nav__list}>
           <li className={styles["nav__list-item"]}>
-            <a href="/services">Услуги</a>
+            <a href="#services">Услуги</a>
           </li>
           <li className={styles["nav__list-item"]}>
-            <a href="/widgets">Виджеты</a>
+            <a href="#widgets">Виджеты</a>
           </li>
           <li className={styles["nav__list-item"]}>
-            <a href="/integrations">Интеграции</a>
+            <a href="#integrations">Интеграции</a>
           </li>
           <li className={styles["nav__list-item"]}>
-            <a href="/cases">Кейсы</a>
+            <a href="#cases">Кейсы</a>
           </li>
           <li className={styles["nav__list-item"]}>
-            <a href="/certificates">Сертификаты</a>
+            <a href="#certificates">Сертификаты</a>
           </li>
         </ul>
       </nav>
@@ -37,7 +37,7 @@ const Header = () => {
           <a href="tel:+75555555555">+7 555 555-55-55</a>
         </div>
         <div className={styles.contacts__socials}>
-          <a href="/telegram">
+          <a href="#telegram">
             <svg
               width="20"
               height="20"
@@ -51,7 +51,7 @@ const Header = () => {
               />
             </svg>
           </a>
-          <a href="/viber">
+          <a href="#viber">
             <svg
               width="20"
               height="19"
@@ -77,7 +77,7 @@ const Header = () => {
               />
             </svg>
           </a>
-          <a href="/whatsapp">
+          <a href="#whatsapp">
             <svg
               width="20"
               height="20"

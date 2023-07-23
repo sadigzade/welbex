@@ -34,8 +34,15 @@
 }
 
 .app__wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
   flex-direction: column;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
   justify-content: space-between;
   max-width: 1180px;
   width: 100%;
@@ -45,6 +52,8 @@
 
 .app__main {
   padding: 0 16px;
+  -webkit-box-flex: 1;
+  -ms-flex: 1;
   flex: 1;
 }
 
@@ -67,7 +76,9 @@
 .app__balls-purple img {
   width: 100%;
   height: 100%;
+  -webkit-filter: drop-shadow(3px 6px 27px rgba(177, 118, 217, 0.25)) blur(5px);
   filter: drop-shadow(3px 6px 27px rgba(177, 118, 217, 0.25)) blur(5px);
+  -webkit-backdrop-filter: blur(2px);
   backdrop-filter: blur(2px);
 }
 
@@ -81,7 +92,9 @@
 .app__balls-red--big img {
   width: 100%;
   height: 100%;
+  -webkit-filter: drop-shadow(3px 6px 27px rgba(223, 125, 125, 0.25));
   filter: drop-shadow(3px 6px 27px rgba(223, 125, 125, 0.25));
+  -webkit-backdrop-filter: blur(2px);
   backdrop-filter: blur(2px);
 }
 
@@ -95,7 +108,9 @@
 .app__balls-red--small img {
   width: 100%;
   height: 100%;
+  -webkit-filter: drop-shadow(3px 6px 27px rgba(223, 125, 125, 0.25)) blur(2.5px);
   filter: drop-shadow(3px 6px 27px rgba(223, 125, 125, 0.25)) blur(2.5px);
+  -webkit-backdrop-filter: blur(2px);
   backdrop-filter: blur(2px);
 }
 

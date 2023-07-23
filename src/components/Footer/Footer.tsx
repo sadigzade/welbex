@@ -10,10 +10,10 @@ const Footer = () => {
           <div className={styles.block__container}>
             <ul className={styles.block__list}>
               <li className={styles["block__list-item"]}>
-                <a href="/">Партнёрская программа</a>
+                <a href="#affiliateprogram">Партнёрская программа</a>
               </li>
               <li className={styles["block__list-item"]}>
-                <a href="/">Вакансии</a>
+                <a href="#vacancy">Вакансии</a>
               </li>
             </ul>
           </div>
@@ -23,39 +23,39 @@ const Footer = () => {
           <div className={styles.block__container}>
             <ul className={styles.block__list}>
               <li className={styles["block__list-item"]}>
-                <a href="/">Расчёт стоимости</a>
+                <a href="#costcalculation">Расчёт стоимости</a>
               </li>
               <li className={styles["block__list-item"]}>
-                <a href="/">Услуги</a>
+                <a href="#services">Услуги</a>
               </li>
               <li className={styles["block__list-item"]}>
-                <a href="/">Виджеты</a>
+                <a href="#widgets">Виджеты</a>
               </li>
               <li className={styles["block__list-item"]}>
-                <a href="/">Интеграции</a>
+                <a href="#integrations">Интеграции</a>
               </li>
               <li className={styles["block__list-item"]}>
-                <a href="/">Наши клиенты</a>
+                <a href="#ourclients">Наши клиенты</a>
               </li>
             </ul>
             <ul className={styles.block__list}>
               <li className={styles["block__list-item"]}>
-                <a href="/">Благодарность клиентов</a>
+                <a href="#customergratitude">Благодарность клиентов</a>
               </li>
               <li className={styles["block__list-item"]}>
-                <a href="/">Кейсы</a>
+                <a href="#cases">Кейсы</a>
               </li>
               <li className={styles["block__list-item"]}>
-                <a href="/">Благодарственные письма</a>
+                <a href="#thanksgivingletters">Благодарственные письма</a>
               </li>
               <li className={styles["block__list-item"]}>
-                <a href="/">Сертификаты</a>
+                <a href="#certificates">Сертификаты</a>
               </li>
               <li className={styles["block__list-item"]}>
-                <a href="/">Блог на Youtube</a>
+                <a href="#blogonyoutube">Блог на Youtube</a>
               </li>
               <li className={styles["block__list-item"]}>
-                <a href="/">Вопрос / Ответ</a>
+                <a href="#qa">Вопрос / Ответ</a>
               </li>
             </ul>
           </div>
@@ -67,7 +67,7 @@ const Footer = () => {
               <a href="tel:+75555555555">+7 555 555-55-55</a>
             </div>
             <div className={styles["block__contacts-socials"]}>
-              <a href="/telegram">
+              <a href="#telegram">
                 <svg viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path
                     d="M17.2208 3.09784L2.44583 8.79534C1.4375 9.20034 1.44333 9.76284 2.26083 10.0137L6.05416 11.197L14.8308 5.6595C15.2458 5.407 15.625 5.54284 15.3133 5.8195L8.2025 12.237H8.20083L8.2025 12.2378L7.94083 16.1478C8.32416 16.1478 8.49333 15.972 8.70833 15.7645L10.5508 13.9728L14.3833 16.8037C15.09 17.1928 15.5975 16.9928 15.7733 16.1495L18.2892 4.29284C18.5467 3.26034 17.895 2.79284 17.2208 3.09784Z"
@@ -75,7 +75,7 @@ const Footer = () => {
                   />
                 </svg>
               </a>
-              <a href="/viber">
+              <a href="#viber">
                 <svg viewBox="0 0 20 19" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path
                     d="M10.7742 2C10.4891 2 10.2581 2.21952 10.2581 2.49032C10.2581 2.76112 10.4891 2.98065 10.7742 2.98065C14.1948 2.98065 16.9677 5.61494 16.9677 8.86452C16.9677 9.13531 17.1988 9.35484 17.4839 9.35484C17.7689 9.35484 18 9.13531 18 8.86452C18 5.07335 14.7649 2 10.7742 2Z"
@@ -95,7 +95,7 @@ const Footer = () => {
                   />
                 </svg>
               </a>
-              <a href="/whatsapp">
+              <a href="#whatsapp">
                 <svg viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path
                     fillRule="evenodd"
@@ -112,7 +112,7 @@ const Footer = () => {
       </div>
       <div className={styles.footer__signature}>
         <p>©WELBEX 2022. Все права защищены.</p>
-        <a href="/">Политика конфиденциальности</a>
+        <a href="#confidentiality">Политика конфиденциальности</a>
       </div>
     </div>
   );
